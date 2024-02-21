@@ -10,10 +10,10 @@
     </head>
 
     <body>
-        <div id="header">
+        <div id="header" class="img">
             <div class="container">
                 <nav>
-                    <img src="images/logo.png" class="logo">
+                    <!-- <img src="images/aditi_logo.jpg" class="logo"> -->
                     <ul id="sidemenu">
                         <li>
                             <a href="#header">Home</a>
@@ -22,7 +22,7 @@
                             <a href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="#services">Skills</a>
                         </li>
                         <li>
                             <a href="#portfolio">Projects</a>
@@ -34,13 +34,13 @@
                     </ul>
                     <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
-
+        
                 <div class="header-text">
                     <p>Web Developer</p>
                     <h1>Hi, I'm <span>Aditi</span><br> Maurya from India </h1>
                 </div>
             </div>
-
+        
         </div>
 
 <!----------------About ------------------>
@@ -49,13 +49,14 @@
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="images/user.png">
+                        <img src="images/AboutImage.jpg">
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
-                        <p>Hello, I'm Aditi Maurya random text random text random text
-                        Hello, I'm Aditi Maurya random text random text random text
-                        Hello, I'm Aditi Maurya random text random text random text
+                        <p>I am Aditi Maurya, a final-year student at the Indian Institute Of Information Technology and Management, Gwalior,
+                        India. I have been practicing Web Development for over a year and a half. I have professional experience as well. I did
+                        two internships for three months each as a full-stack developer, and am currently working as a Web Developer Intern in
+                        Wesence Technologies, India.
                         </p>
 
                         <div class="tab-titles">
@@ -66,9 +67,11 @@
 
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
-                                <li><span>MERN Stack</span><br>Designing MERN Stack Applications</li>
-                                <li><span>Backend Development</span><br>Building Backend Applications</li>
-                                <li><span>Web Design</span><br>Designing Websites</li>
+                                <li><span>Programming Languages</span><br>C++, JavaScript, TypeScript, SQL</li>
+                                <li><span>Development</span><br>Node.js, Express.js, Nest.js, Bootstrap, HTML5, CSS, React, Redux, AWS Lambda</li>
+                                <li><span>Databases</span><br>MongoDB, MySQL, GraphQL, PostgresSQL</li>
+                                <li><span>Tools</span><br>Git, Postman, LaTex, PhotoShop, GraphQL Playground</li>
+                                <li><span>Coursework</span><br>Data Structures, Operating Systems, Computer Networks, Database Management System, OOPs</li>
                             </ul>
                         </div>
 
@@ -99,30 +102,23 @@
 
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
+        <h1 class="sub-title">My Software Development Skills</h1>
         <div class="services-list">
             <div>
                 <i class="fas fa-code"></i>
                 <h2>Backend Development</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Proin dolor felis,varius sed lacus vitae, dictum aliquam diam.</p>
-                <a href="#">Learn more</a>
+                <p>I build the backend architecture of web applications using Node.js, Nest.js and Express.js. 
+                With a focus on scalability, performance, and maintainability, I design and implement server-side solutions 
+                that seamlessly integrate with front-end technologies.</p>
+                <!-- <a href="#">Learn more</a> -->
             </div>
 
             <div>
                 <i class="fas fa-code"></i>
                 <h2>MERN Stack Development</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Proin dolor felis,varius sed lacus vitae, dictum aliquam diam.</p>
-                <a href="#">Learn more</a>
-            </div>
-
-            <div>
-                <i class="fas fa-code"></i>
-                <h2>Web Design</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Proin dolor felis,varius sed lacus vitae, dictum aliquam diam.</p>
-                <a href="#">Learn more</a>
+                <p>I develop web applications using the MERN (MongoDB, Express.js, React.js, Node.js) Stack, combining my passion for
+                coding with a keen eye for creating intuitive and efficient user experiences.</p>
+                <!-- <a href="#">Learn more</a> -->
             </div>
 
         </div>
@@ -137,12 +133,13 @@
         <h1 class="sub-title">My Projects</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/work-1.png">
+                <img src="images/ProShop.jpg">
                 <div class="layer">
                     <h3>Pro Shop</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Proin dolor felis,varius sed lacus vitae, dictum aliquam diam.</p>
-                    <a href="#">
+                    <p>ProShop is an e-commerce web application created with MERN Stack and Redux.
+                        It provides a full-featured shopping experience with various functionalities for users and administrators.
+                    </p>
+                    <a href="https://github.com/aditiii23/proshop-frontend">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
@@ -153,9 +150,10 @@
                 <img src="images/work-2.png">
                 <div class="layer">
                     <h3>Virtual Permissions</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Proin dolor felis,varius sed lacus vitae, dictum aliquam diam.</p>
-                    <a href="#">
+                    <p>Virtual Permissions is an application designed to manage and verify guest access in small organizations or societies.
+                        It provides a secure verification system using passes, allowing authorized guests to enter the campus or premises.
+                    </p>
+                    <a href="https://github.com/aditiii23/virtualPermissions">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
@@ -163,19 +161,19 @@
 
 
             <div class="work">
-                <img src="images/work-3.png">
+                <img src="images/HopeGiversImg.jpg">
                 <div class="layer">
                     <h3>Hope Givers</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Proin dolor felis,varius sed lacus vitae, dictum aliquam diam.</p>
-                    <a href="#">
+                    <p>HopeGivers is a web platform where you can upload and donate your used and discarded garrments, toys and books for the
+                    underprivileged. Upload, explore items and donation centres are the functionalities of the application.</p>
+                    <a href="https://github.com/aditiii23/HopeGivers">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
             </div>
         </div>
 
-        <a href="#" class="btn">See more</a>
+        <a href="https://github.com/aditiii23" class="btn">Click here to see more</a>
     </div>
 </div>
 
@@ -190,10 +188,10 @@
                 <p><i class="fa-solid fa-paper-plane"></i> aditi23.maurya@gmail.com</p>
                 <p><i class="fa-solid fa-square-phone"></i> +91-8081929857</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.facebook.com/aditi.maurya.5815/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/aditi-maurya-81825a194/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/aditi_23__"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Aditi_23__"><i class="fa-brands fa-twitter-square"></i></a>
                 </div>
 
                 <a href="images/Aditi_Maurya_Resume.pdf" download class="btn btn2">Download Resume</a>
